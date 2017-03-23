@@ -2239,7 +2239,6 @@ input[type=button].__re-bulma_input {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 14px;
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
