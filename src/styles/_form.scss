@@ -1,7 +1,6 @@
 .input {
   box-sizing: border-box;
   vertical-align: middle;
-  font: 99% sans-serif;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
@@ -12,7 +11,7 @@ select.select {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-   
+  font-size: $font-size-base;
 }
 
 input[type="text"].input {
@@ -24,13 +23,12 @@ input[type="checkbox"].input {
 }
 
 select.select, textarea.textarea {
-  font: 99% sans-serif;
   box-sizing: border-box;
 }
 
 input[type=button].input,
 input[type=submit].input,
-input[type=file].input,
+input[type=file].input
 {
   cursor: pointer;
 }
@@ -69,6 +67,7 @@ input[type=button].input {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  font-size: $font-size-base;
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -216,7 +215,7 @@ input[type=button].input {
 .checkbox, .radio {
   /* add */
   color: #69707a;
-  font-size: 14px;
+  font-size: $font-size-base;
 
   cursor: pointer;
   display: inline-block;
@@ -268,7 +267,7 @@ input[type=button].input {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 14px;
+  font-size: $font-size-base;
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -589,7 +588,7 @@ input[type=button].input {
 
 .control.has-icon > .fa {
   display: inline-block;
-  font-size: 14px;
+  font-size: $font-size-base;
   height: 24px;
   line-height: 24px;
   text-align: center;

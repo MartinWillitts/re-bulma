@@ -43,7 +43,7 @@
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: 14px;
+  font-size: $font-size-base;
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -285,13 +285,13 @@ button:active,
 }
 
 .button.is-primary {
-  background-color: #1fc8db;
+  background-color: $primary-color;
   border-color: transparent;
   color: white;
 }
 
 .button.is-primary:hover, .button.is-primary:focus, .button.is-primary.is-active {
-  background-color: #199fae;
+  background-color: $primary-hover-color;
   border-color: transparent;
   color: white;
 }
