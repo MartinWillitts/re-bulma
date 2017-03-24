@@ -4,3 +4,4 @@ lib/
 index.html
 normalize.css
 bundle.js
+build/
