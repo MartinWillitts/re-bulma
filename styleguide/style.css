@@ -318,15 +318,22 @@ button:active,
 }
 
 .__re-bulma_button.__re-bulma_is-primary {
-  background-color: #558B2F;
+  background-color: #00d1b2;
   border-color: transparent;
   color: white;
 }
 
 .__re-bulma_button.__re-bulma_is-primary:hover, .__re-bulma_button.__re-bulma_is-primary:focus, .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-active {
-  background-color: #006837;
   border-color: transparent;
   color: white;
+}
+
+.__re-bulma_button.__re-bulma_is-primary:hover, .__re-bulma_button.__re-bulma_is-primary:focus {
+  background-color: #006837;
+}
+
+.__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-active {
+  background-color: #00b89c;
 }
 
 .__re-bulma_button.__re-bulma_is-primary:active {
@@ -348,13 +355,13 @@ button:active,
 
 .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined {
   background-color: transparent;
-  border-color: #1fc8db;
-  color: #1fc8db;
+  border-color: #00d1b2;
+  color: #00d1b2;
 }
 
 .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined:hover, .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined:focus {
-  background-color: #1fc8db;
-  border-color: #1fc8db;
+  background-color: #006837;
+  border-color: #006837;
   color: white;
 }
 
