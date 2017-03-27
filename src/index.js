@@ -85,7 +85,7 @@ import HeroHead from './layout/hero-head';
 import HeroBody from './layout/hero-body';
 
 try {
-    if (typeof document !== 'undefined' || document !== null) insertCss(css, { prepend: true });
+  if (typeof document !== 'undefined' || document !== null) insertCss(css, { prepend: true });
 } catch (e) {}
 
 export {

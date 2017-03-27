@@ -11,7 +11,7 @@ select.select {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-size: $font-size-base;
+  font-size: ${font_size_base};
 }
 
 input[type="text"].input {
@@ -67,7 +67,7 @@ input[type=button].input {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: $font-size-base;
+  font-size: ${font_size_base};
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -215,7 +215,7 @@ input[type=button].input {
 .checkbox, .radio {
   /* add */
   color: #69707a;
-  font-size: $font-size-base;
+  font-size: ${font_size_base};
 
   cursor: pointer;
   display: inline-block;
@@ -267,7 +267,7 @@ input[type=button].input {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-size: $font-size-base;
+  font-size: ${font_size_base};
   height: 32px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -588,7 +588,7 @@ input[type=button].input {
 
 .control.has-icon > .fa {
   display: inline-block;
-  font-size: $font-size-base;
+  font-size: ${font_size_base};
   height: 24px;
   line-height: 24px;
   text-align: center;
