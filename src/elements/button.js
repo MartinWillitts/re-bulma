@@ -119,11 +119,13 @@ export default class Button extends Component {
         className={this.createClassName()}
         {...extraProps}
       >
+        <span>
         {
           this.props.icon
             ? this.renderIcon()
             : this.props.children
         }
+        </span>
       </button>
     );
   }
