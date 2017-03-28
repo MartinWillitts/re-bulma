@@ -90,6 +90,7 @@ export default class Example extends Component {
         <Button >test</Button>
         <Button size="isLarge" states="isActive">Guthub</Button>
         <Button size="isSmall" states="isActive" icon="fa fa-github">Github</Button>
+        <Button data={[{"name":"item-name", value:"something\"quoted\""}]}>Data</Button>
         <Columns>
           <Column size="is2" style={{ background: '#ccc' }}>aaaa</Column>
           <Column>bbbb</Column>
