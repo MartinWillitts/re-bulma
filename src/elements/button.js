@@ -103,7 +103,7 @@ export default class Button extends DataComponent {
         {...getCallbacks(this.props)}
         style={this.props.style}
         className={this.createClassName()}
-        {...this.dataProps(this.props.data)}
+        {...this.dataProps()}
       >
         <span>
         {
