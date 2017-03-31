@@ -318,7 +318,7 @@ button:active,
 }
 
 .__re-bulma_button.__re-bulma_is-primary {
-  background-color: #00d1b2;
+  background-color: #1fc8db;
   border-color: transparent;
   color: white;
 }
@@ -329,11 +329,11 @@ button:active,
 }
 
 .__re-bulma_button.__re-bulma_is-primary:hover, .__re-bulma_button.__re-bulma_is-primary:focus {
-  background-color: #006837;
+  background-color: #199fae;
 }
 
 .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-active {
-  background-color: #00b89c;
+  background-color: #199fae;
 }
 
 .__re-bulma_button.__re-bulma_is-primary:active {
@@ -355,13 +355,13 @@ button:active,
 
 .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined {
   background-color: transparent;
-  border-color: #00d1b2;
-  color: #00d1b2;
+  border-color: #1fc8db;
+  color: #1fc8db;
 }
 
 .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined:hover, .__re-bulma_button.__re-bulma_is-primary.__re-bulma_is-outlined:focus {
-  background-color: #006837;
-  border-color: #006837;
+  background-color: #199fae;
+  border-color: #199fae;
   color: white;
 }
 
@@ -5301,11 +5301,11 @@ a.__re-bulma_nav-item.__re-bulma_is-tab.__re-bulma_is-active {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #69707a;
   line-height: 1.428571428571429;
-  font-size: 1rem;
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-size: 1rem;
   font-weight: normal;
   vertical-align: baseline;
   -webkit-box-align: center;
