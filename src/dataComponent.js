@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 export default class DataComponent extends Component {
-  dataProps(dataProps) {
+  dataProps() {
     const extraProps = {};
-    if (typeof dataProps != 'undefined' && dataProps && dataProps.length>0) {
-      dataProps.map(d => {
+    if (typeof this.props.data != 'undefined' && this.props.data && this.props.data.length>0) {
+      this.props.data.map(d => {
         if (d.name && d.value) {
           extraProps["data-" + encodeURIComponent(d.name)] = d.value.replace(/'/g, '&quot;');
         }

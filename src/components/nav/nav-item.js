@@ -33,7 +33,7 @@ export default class NavItem extends DataComponent {
         {...getCallbacks(this.props)}
         style={this.props.style}
         className={this.createClassName()}
-        {...this.dataProps(this.props.data)}
+        {...this.dataProps()}
       >
         {this.props.children}
       </span>
