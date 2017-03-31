@@ -581,7 +581,7 @@ export default class Example extends Component {
 
         <Nav>
           <NavGroup align="left">
-            <NavItem>
+            <NavItem data={[{"name":"nav-item-data", value:"actual value"}]}>
               hoge
             </NavItem>
           </NavGroup>

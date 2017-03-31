@@ -1950,7 +1950,7 @@ button:active,
   }
 }
 
-@media screen and (min-width: 769x) {
+@media screen and (min-width: 769px) {
   .__re-bulma_columns.__re-bulma_is-desktop {
     display: block;
   }
