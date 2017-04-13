@@ -100,7 +100,7 @@ export default class Button extends Component {
     if (this.props.data && this.props.data.length>0) {
       return this.props.data.map(d => {
         return "data-"+d.name + " = " + d.value;}
-        ).join(" ");
+      ).join(" ");
     } else
       return null;
   }
