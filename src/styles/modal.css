@@ -162,8 +162,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: ${base_color};
   font-family: ${font_family};
+  color: ${base_color};
   line-height: 1.428571428571429;
   font-size: ${font_size_base};
   margin: 0;
@@ -185,8 +185,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: ${base_color};
   font-family: ${font_family};
+  color: ${base_color};
   line-height: 1.428571428571429;
   font-size: ${font_size_base};
   margin: 0;
